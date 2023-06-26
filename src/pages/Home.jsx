@@ -20,12 +20,11 @@ export default function Home() {
 				</div>
 			</div>
 
-		<div className="mt-2 mb-2" onClick={() => (navigate("/games"))}>
-			<span className="  cursor-pointer bg-transparent hover:text-[#008299] hover:text-[17px]">
-				Boshqa o'yinlar
-			</span>
-
-		</div>
+			<div className="mt-2 mb-2" onClick={() => navigate("/games")}>
+				<span className="  cursor-pointer bg-transparent hover:text-[#008299] hover:text-[17px]">
+					Boshqa o'yinlar
+				</span>
+			</div>
 
 			<GameNumber />
 		</div>

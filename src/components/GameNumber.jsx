@@ -820,7 +820,10 @@ export default function GameNumber() {
 							</div>
 
 							<div className="w-[100%] mt-2 ">
-								<button onClick={handleClear} className="bg-white text-[#111] text-[16px]">
+								<button
+									onClick={handleClear}
+									className="bg-white text-[#111] text-[16px]"
+								>
 									Tozalash
 								</button>
 							</div>

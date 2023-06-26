@@ -1,5 +1,5 @@
 import React from "react";
 
-export const Winners = () => {
+export default function Winners() {
 	return <div>Winners</div>;
-};
+}
